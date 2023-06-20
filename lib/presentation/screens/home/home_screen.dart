@@ -63,7 +63,19 @@ class _CustomListTile extends StatelessWidget {
       trailing: Icon( Icons.arrow_forward_ios_rounded, color: colors.primary,),
       title: Text(menuItems.title),
       subtitle: Text(menuItems.subtitle),
-      onTap: (){},
+      onTap: (){
+
+        // Navigator.of(context).push(
+
+        //   MaterialPageRoute(
+            
+        //     builder: (context) => const ButtonsScreen() )
+
+        // );
+
+        Navigator.pushNamed( context, menuItems.link );
+
+      },
 
     );
   }
