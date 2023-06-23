@@ -44,5 +44,11 @@ class MenuItem{
       link: '/snack',
       icon: Icons.info_outline
     ),
+    MenuItem(
+      title: 'Animated container',
+      subtitle: 'Steful widget animated',
+      link: '/animated',
+      icon: Icons.check_box_outline_blank_outlined
+    ),
 
   ];
