@@ -34,9 +34,15 @@ class MenuItem{
 
     MenuItem(
       title: 'ProgressIndicator',
-      subtitle: 'Generales y controlados',
+      subtitle: 'Indicadores en pantalla',
       link: '/progress',
       icon: Icons.refresh_outlined
+    ),
+    MenuItem(
+      title: 'Snackbars and dialogs',
+      subtitle: 'Indicadores en pantalla',
+      link: '/snack',
+      icon: Icons.info_outline
     ),
 
   ];
