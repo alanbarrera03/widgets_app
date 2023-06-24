@@ -50,5 +50,11 @@ class MenuItem{
       link: '/animated',
       icon: Icons.check_box_outline_blank_outlined
     ),
+    MenuItem(
+      title: 'UI Controls',
+      subtitle: 'Series of controls of Flutter',
+      link: '/ui-controls',
+      icon: Icons.car_rental_outlined
+    ),
 
   ];
