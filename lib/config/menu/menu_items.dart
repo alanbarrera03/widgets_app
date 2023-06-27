@@ -75,5 +75,11 @@ class MenuItem{
       link: '/infinite',
       icon: Icons.list_alt_rounded
     ),
+    MenuItem(
+      title: 'Theme Charge',
+      subtitle: 'Change theme of the aplication',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined
+    ),
 
   ];
